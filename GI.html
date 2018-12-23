@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>胜负决定装置</title>
+    <style type="text/css">
+        .header{
+            background-color: #5CACEE;
+            color:white;
+            text-align: center;
+            padding: 10px;
+        }
+        .login{
+            text-align:center;
+            padding: 10px;
+        }
+        .user{
+            left: -10px;
+            height:23px;
+            width:200px;
+            padding-right:20px;
+        }
+        .password{
+            height:23px;
+            width:200px;
+            padding-right:20px;
+            text-align:center;
+        }
+        .mima{
+            position: relative;
+            top: -3px;
+            left: 8px;
+
+        }
+        .mima3{
+            position: relative;
+            top: -8px;
+            left: -8px;
+        }
+        .mima1{
+            position: relative;
+            top: -5px;
+            left: 8px;
+            height:23px;
+            width:200px;
+            padding-right:20px;
+        }
+        .mima2{
+            position: relative;
+            top: -11px;
+            left: -9px;
+            height:23px;
+            width:200px;
+            padding-right:20px;
+        }
+        .btn{
+            width: 200px;
+            height: 50px;
+        }
+
+
+
+    </style>
+    <script>
+        function Game(){
+            window.location.href="./Game.html";//跳转到游戏
+        }
+        function GR(){
+            window.location.href="./GR.html";//跳转到游戏规则介绍界面
+        }
+        function PI(){
+            window.location.href="./PI.html";//跳转到个人界面
+        }
+    </script>
+</head>
+<body background="./c.jpg">
+<div class="header">
+    <h1>胜负决定装置！</h1>
+</div>
+<div align="center" style ="margin-top: 20px">
+    <input type="button" style="width: 300px;height: 60px;" value="开始游戏" onclick="Game()" />
+</div>
+<div align="center" style ="margin-top: 20px">
+    <input type="button" style="width: 300px;height: 60px;" value="游戏规则" onclick="GR()" />
+</div>
+<div align="center" style ="margin-top: 20px">
+    <input type="button" style="width: 300px;height: 60px;" value="退出" onclick="PI()" />
+</div>
+</body>
+
+</html>
