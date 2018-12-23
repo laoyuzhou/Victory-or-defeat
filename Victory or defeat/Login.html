@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <title>胜负决定装置</title>
+        <style type="text/css">
+            .header{
+                background-color: #5CACEE;
+                color:white;
+                text-align: center;
+                padding: 10px;
+            }
+            .login{
+                text-align:center;
+                padding: 10px;
+            }
+            .user{
+                height:23px;
+                width:200px;
+                padding-right:20px;
+            }
+            .password{
+                height:23px;
+                width:200px;
+                padding-right:20px;
+                text-align:center;
+            }
+        </style>
+        <script>
+            function reg(){
+                window.location.href="./reg.html";
+            }
+        </script>
+    </head>
+
+<body background="./c.jpg">
+<div class="header">
+    <h1>胜负决定装置！</h1>
+</div>
+<form method="post">
+    <div class="login">
+        <label for="username" style="font-size: 17px " >用户名</label>
+        <div style="height: 25px;display: inline">
+            <input class="user" type="text">
+        </div>
+    </div>
+    <div class="login">
+        <label for="username" style="font-size: 17px " >密码：</label>
+        <div style="height: 25px;display: inline">
+            <input class="user" type="password">
+        </div>
+        <div style="margin-top: 20px">
+
+            <input type="submit">
+            <button type="button" onclick="reg()" >注册</button>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
+
+
